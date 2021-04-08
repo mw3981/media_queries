@@ -6,10 +6,16 @@ body, html {
   background-attachment: fixed;
 }
 
-
 h1, h2, p {
   color: #fffafe;
 }
+
+h1, h2 {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 3px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+}
+
+/* HEADING  */
 
 .heading {
   display: flex;
@@ -22,17 +28,7 @@ h1, h2, p {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
 }
 
-.quote {
-  font-size: 3vmin;
-  padding: 7vmin;
-  padding-left: 40vmin;
-  padding-right: 40vmin;
-  margin-top: 25vmin;
-  margin-bottom: 30vmin;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
-}
+/* BIOGRAPHY */
 
 .first {
   display: flex;
@@ -59,118 +55,18 @@ h1, h2, p {
   padding-right: 20vmin;
 }
 
+/* QUOTES */
 
-.thelovers {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 17vmin;
-  margin-bottom: 25vmin;
-}
-
-.theloverstext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+.quote {
+  font-size: 3vmin;
+  padding: 7vmin;
+  padding-left: 40vmin;
+  padding-right: 40vmin;
+  margin-top: 25vmin;
+  margin-bottom: 30vmin;
   text-align: center;
-  margin: 3vmin;
-  margin-right: 20vmin;
-  font-size: 2.75vmin;
-}
-
-.blackmagic {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 25vmin;
-  margin-bottom: 25vmin;
-}
-
-.blackmagictext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  font-size: 2.75vmin;
-  margin: 3vmin;
-  margin-right: 20vmin;
-  margin-left: 20vmin;
-}
-
-.artofliving {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 25vmin;
-  margin-bottom: 25vmin;
-}
-
-.artoflivingtext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  font-size: 2.75vmin;
-  margin: 3vmin;
-  margin-right: 20vmin;
-  margin-left: 20vmin;
-}
-
-.sonofman {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 25vmin;
-  margin-bottom: 7vmin;
-}
-
-.sonoftext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  font-size: 2.75vmin;
-  margin: 3vmin;
-  margin-right: 20vmin;
-  margin-left: 20vmin;
-}
-
-.invention {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 16vmin;
-  margin-bottom: 20vmin;
-}
-
-.inventiontext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  margin: 10vmin;
-  margin-top: 30vmin;
-  margin-right: 17vmin;
-  font-size: 2.75vmin;
-}
-
-.elective {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 25vmin;
-  margin-bottom: 7vmin;
-}
-
-.electivetext {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  font-size: 2.75vmin;
-  margin: 3vmin;
-  margin-right: 20vmin;
-  margin-left: 20vmin;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
 }
 
 .quote2 {
@@ -185,52 +81,160 @@ h1, h2, p {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
 }
 
+/* THE LOVERS */
 
-h1, h2 {
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 3px #fff, 0 0 20px #2e6fc9, 0 0 30px #2e6fc9, 0 0 40px #2e6fc9, 0 0 55px #2e6fc9, 0 0 75px #0037a6;
+.thelovers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 17vmin;
+  margin-bottom: 25vmin;
+}
+
+.thelovers img {
+  width: 35%;
+}
+
+.theloverstext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  font-size: 2.75vmin;
+}
+
+/* BLACK MAGIC */
+
+.blackmagic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 25vmin;
+}
+
+.blackmagic img {
+  width: 25%;
+}
+
+.blackmagictext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+/* ART OF LIVING */
+
+.artofliving {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 25vmin;
+}
+
+.artofliving img {
+  width: 30%;
+}
+
+.artoflivingtext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+/* SON OF MAN */
+
+.sonofman {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 7vmin;
+}
+
+.sonofman img {
+  width: 30%;
+}
+
+.sonoftext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
+}
+
+/* INVENTION */
+
+.invention {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16vmin;
+  margin-bottom: 20vmin;
+}
+
+.invention img {
+  width: 40%;
+}
+
+.inventiontext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  margin: 10vmin;
+  margin-top: 30vmin;
+  margin-right: 17vmin;
+  font-size: 2.75vmin;
+}
+
+/* ELECTIVE */
+
+.elective {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25vmin;
+  margin-bottom: 7vmin;
+}
+
+.elective img {
+  width: 30%;
+}
+
+.electivetext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 2.75vmin;
+  margin: 3vmin;
+  margin-right: 20vmin;
+  margin-left: 20vmin;
 }
 
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-   {
+/* BREAKPOINT */
+@media screen and (max-width: 1024px) {
   body {
     background-repeat: no-repeat;
-  }
-
-  .heading {
-    font-size: 13vmin;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 45vmin;
-    padding-top: 50vmin;
-  }
-
-  .first {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10vmin;
-  }
-
-  .aboutimg img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-  .abouttext {
-    font-size: 1.2em;
-    margin-left: -12vmin;
-    margin-right: -8vmin;
-    display: flex;
-    align-items: center;
   }
 
   h1 {
@@ -238,306 +242,7 @@ h1, h2 {
     flex-direction: row;
   }
 
-  .quote {
-    font-size: 1.2em;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    padding-bottom: 10vmin;
-    padding: 120px;
-  }
-
-  .quote2 {
-    font-size: 1.2em;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    padding: 120px;
-  }
-
-  .thelovers {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .thelovers img {
-    margin-left: -20vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .theloverstext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-  }
-
-  .blackmagic {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .blackmagic img {
-    margin-left: -20vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .blackmagictext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    margin-left: -8vmin;
-  }
-
-  .artofliving {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .artofliving img {
-    margin-left: -25vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .artoflivingtext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    margin-left: -6vmin;
-  }
-
-  .sonofman {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .sonofman img {
-    margin-left: -25vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .sonoftext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    margin-left: -10vmin;
-  }
-
-  .invention {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .invention img {
-    margin-left: -20vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .inventiontext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    margin-top: -1.5vmin;
-    margin-left: -2vmin;
-  }
-
-  .elective {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .elective img {
-    margin-left: -22vmin;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .electivetext {
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    margin-top: -1.5vmin;
-    margin-left: -2vmin;
-  }
-}
-
-
-/* ----------- iPad 1, 2, Mini and Air Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-
-    .heading {
-      font-size: 12vmin;
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      padding-bottom: 35vmin;
-      padding-top: 30vmin;
-    }
-
-    .first {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 10vmin;
-    }
-
-    .aboutimg img {
-      max-width: 100%;
-      max-height: 100%;
-  }
-
-    .abouttext {
-      font-size: 1.5em;
-      margin-left: -11vmin;
-      margin-right: -6vmin;
-      display: flex;
-      align-items: center;
-    }
-
-    h1 {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .quote {
-      font-size: 1.5em;
-      text-align: center;
-      display: flex;
-      align-content: center;
-      padding-bottom: 5vmin;
-      padding: 120px;
-    }
-
-    .quote2 {
-      font-size: 1.5em;
-      text-align: center;
-      display: flex;
-      align-content: center;
-      padding: 120px;
-    }
-
-    .thelovers {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .thelovers img {
-      margin-left: -20vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .theloverstext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-    }
-
-    .blackmagic {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .blackmagic img {
-      margin-left: -20vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .blackmagictext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      margin-left: -8vmin;
-    }
-
-    .artofliving {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .artofliving img {
-      margin-left: -25vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .artoflivingtext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      margin-left: -6vmin;
-    }
-
-    .sonofman {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .sonofman img {
-      margin-left: -25vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .sonoftext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      margin-left: -10vmin;
-    }
-
-    .invention {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .invention img {
-      margin-left: -20vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .inventiontext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      margin-top: -1.5vmin;
-      margin-left: -2vmin;
-    }
-
-    .elective {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .elective img {
-      margin-left: -22vmin;
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .electivetext {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      margin-top: -1.5vmin;
-      margin-left: -2vmin;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-  body {
-    background-repeat: no-repeat;
-  }
+  /* HEADING */
 
   .heading {
     font-size: 10vmin;
@@ -547,6 +252,8 @@ h1, h2 {
     padding-bottom: 45vmin;
     padding-top: 50vmin;
   }
+
+  /* BIOGRAPHY */
 
   .first {
     display: flex;
@@ -568,10 +275,7 @@ h1, h2 {
     align-items: center;
   }
 
-  h1 {
-    display: flex;
-    flex-direction: row;
-  }
+  /* QUOTES */
 
   .quote {
     font-size: 1.2em;
@@ -582,6 +286,12 @@ h1, h2 {
     padding: 120px;
   }
 
+  .quote2 {
+    font-size: 1.2em;
+  }
+
+  /* THE LOVERS */
+
   .thelovers {
     display: flex;
     flex-direction: column;
@@ -589,8 +299,7 @@ h1, h2 {
   }
   .thelovers img {
     margin-left: -20vmin;
-    max-width: 65vw;
-    max-height: 35vh;
+    width: 60%;
   }
 
   .theloverstext {
@@ -599,6 +308,8 @@ h1, h2 {
     align-items: center;
   }
 
+  /* BLACK MAGIC */
+
   .blackmagic {
     display: flex;
     flex-direction: column;
@@ -606,8 +317,7 @@ h1, h2 {
 
   .blackmagic img {
     margin-left: -20vmin;
-    max-width: 55vw;
-    max-height: 45vh;
+    width: 50%;
   }
 
   .blackmagictext {
@@ -617,6 +327,8 @@ h1, h2 {
     margin-left: -8vmin;
   }
 
+/* ART OF LIVING */
+
   .artofliving {
     display: flex;
     flex-direction: column;
@@ -624,8 +336,7 @@ h1, h2 {
   }
   .artofliving img {
     margin-left: -25vmin;
-    max-width: 55vw;
-    max-height: 45vh;
+    width: 50%;
   }
 
   .artoflivingtext {
@@ -635,6 +346,8 @@ h1, h2 {
     margin-left: -6vmin;
   }
 
+/* SON OF MAN */
+
   .sonofman {
     display: flex;
     flex-direction: column;
@@ -642,8 +355,7 @@ h1, h2 {
   }
   .sonofman img {
     margin-left: -25vmin;
-    max-width: 55vw;
-    max-height: 45vh;
+    width: 50%;
   }
 
   .sonoftext {
@@ -653,6 +365,8 @@ h1, h2 {
     margin-left: -10vmin;
   }
 
+  /* INVENTION */
+
   .invention {
     display: flex;
     flex-direction: column;
@@ -660,8 +374,7 @@ h1, h2 {
   }
   .invention img {
     margin-left: -20vmin;
-    max-width: 65vw;
-    max-height: 30vh;
+    width: 50%;
   }
 
   .inventiontext {
@@ -672,6 +385,8 @@ h1, h2 {
     margin-left: -2vmin;
   }
 
+  /* ELECTIVE */
+
   .elective {
     display: flex;
     flex-direction: column;
@@ -679,8 +394,7 @@ h1, h2 {
   }
   .elective img {
     margin-left: -22vmin;
-    max-width: 55vw;
-    max-height: 45vh;
+    width: 50%;
   }
 
   .electivetext {
@@ -691,7 +405,4 @@ h1, h2 {
     margin-left: -2vmin;
   }
 
-.quote2 {
-  font-size: 1.2em;
-}
 }
