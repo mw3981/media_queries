@@ -2,7 +2,7 @@ body, html {
   margin: 0px;
   padding: 0px;
   font-family:  "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
-  background-image: url(stars.gif);
+  background-image: url(images/stars.gif);
   background-attachment: fixed;
 }
 
