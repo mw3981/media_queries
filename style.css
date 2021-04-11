@@ -351,7 +351,8 @@ h1, h2 {
   .sonofman {
     display: flex;
     flex-direction: column;
-
+    margin-top: -5vmin;
+    margin-bottom: 15vmin;
   }
   .sonofman img {
     margin-left: -25vmin;
